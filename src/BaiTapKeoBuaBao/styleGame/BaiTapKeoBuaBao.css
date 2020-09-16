@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "pony";
+    src: url("./Pony.ttf");
+}
+
+.gameKeoBuaBao{
+    background-image: url('./bgGame.png');
+    background-size: 100%;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    font-family: "pony";
+}
+.player{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.player-picker{
+    margin: 0 auto;
+    position: relative;
+    
+    width:50%;
+    height:100px;
+    background-color:white;
+    border:2px solid blue;
+}
+.player-picker>img{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.player.player-picker{
+    
+}
+.KeoBuaBao{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+/* button{
+    outline:0;
+    order: 2px solid yellow;
+}
+.KeoBuaBao.Keo button{
+    width:40px;
+    height: 40px;
+    
+}
+.KeoBuaBao.Bua button{
+    width:40px;
+    height: 40px;
+    border: 2px solid yellow;
+}
+.KeoBuaBao.Bao button{
+    width:40px;
+    height: 40px;
+    border: 2px solid yellow;
+}  */
